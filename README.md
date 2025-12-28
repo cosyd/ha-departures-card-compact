@@ -1,9 +1,9 @@
 # Departures Card Compact
 
-![GitHub Release](https://img.shields.io/github/v/release/alex-jung/ha-departures-card)
-![GitHub License](https://img.shields.io/github/license/alex-jung/ha-departures-card)
-![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/alex-jung/ha-departures-card/total)
-![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/alex-jung/ha-departures-card)
+![GitHub Release](https://img.shields.io/github/v/release/cosyd/ha-departures-card-compact)
+![GitHub License](https://img.shields.io/github/license/cosyd/ha-departures-card-compact)
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/cosyd/ha-departures-card-compact/total)
+![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/cosyd/ha-departures-card-compact)
 
 A card to display departure times provided by [Departures](https://github.com/alex-jung/ha-departures) custom integration. This is a fork of the original [Departures Card] (https://github.com/alex-jung/ha-departures-card) v2.2.1 to preserve this compact layout and optimize it further.
 
