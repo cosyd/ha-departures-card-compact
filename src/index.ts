@@ -6,12 +6,12 @@ declare global {
   }
 }
 
-customElements.define("departures-card-compact", DeparturesCard);
+customElements.define("ha-departures-card-compact", DeparturesCard);
 
 
 window.customCards = window.customCards || [];
 window.customCards.push({
-  type: "departures-card-compact",
+  type: "ha-departures-card-compact",
   name: "Departures Card Compact",
   description: "Show public transport departures",
 });
