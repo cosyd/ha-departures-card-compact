@@ -1,0 +1,30 @@
+import { nodeResolve } from "@rollup/plugin-node-resolve";
+import commonjs from "@rollup/plugin-commonjs";
+import typescript from "@rollup/plugin-typescript";
+import babel from "@rollup/plugin-babel";
+import json from "@rollup/plugin-json";
+import terser from "@rollup/plugin-terser";
+
+const plugins = [
+  nodeResolve(),
+  commonjs(),
+  typescript(),
+  json(),
+  babel({
+    exclude: "node_modules/**",
+    babelHelpers: "bundled",
+  }),
+  terser(),
+];
+
+export default [
+  {
+    input: "src/departures-card.ts",
+    output: {
+      sourcemap: true,
+      format: "es",
+      file: "dist/ha-departures-card.js",
+    },
+    plugins: [...plugins],
+  },
+];

@@ -1,0 +1,27 @@
+{
+  "card": {
+    "editor": {
+      "title": "Card header text (optional)",
+      "icon": "Card icon (optional)",
+      "showCardHeader": "Show card header",
+      "showAnimation": "Show arrival animation",
+      "showTransportIcon": "Show transport icon",
+      "hideEmptyDepartures": "Hide empty departures",
+      "debug": "Debug",
+      "departuresToShow": "Departures to show",
+      "addEntity": "Add entity",
+      "entity": {
+        "entity": "Entity",
+        "destinationName": "Destination name",
+        "lineName": "Line name",
+        "lineColor": "Line color",
+        "nowIcon": "Now icon",
+        "timeStyle": "Departure time style",
+        "remove": "Delete"
+      }
+    },
+    "departures": "Departures",
+    "line": "Line",
+    "destination": "Destination"
+  }
+}
